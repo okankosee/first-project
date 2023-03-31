@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+input{
+    width: 100% ;
+    padding: 5px ;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box ;
+    -moz-webkit-box-sizing: border-box ;
+
+}  
+ul ,li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list {
+    margin: 15px;
+}
+.list > li  {
+     background-color: rgb(206, 206, 206);
+     padding: 10px;
+     margin-bottom: 2px;
+     display: flex;
+     justify-content: space-between;
+}
+.btn {
+     display: flex;
+     justify-content: flex-end;
+     padding: 5px 0;
+
+}
+.btn > button {
+    padding: 5px ;
+    width: 60px;
+
+}
